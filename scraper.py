@@ -29,7 +29,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    server.login('rajteknok@gmail.com', 'iphpghmchjnfkdsf')
+    server.login('rajteknok@gmail.com', 'hellothere')
 
     subject = "Price Fell down"
     body = "check out amazon link = https://www.amazon.in/Apple-MacBook-Pro-9th-Generation-Intel-Core-i9/dp/B07SDPJ531/ref=sr_1_3?keywords=macbook+pro&qid=1564119110&s=gateway&sr=8-3"
